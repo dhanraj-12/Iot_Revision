@@ -1,4 +1,228 @@
+
+
 # Internet of Things (IoT) – Chapter 1 Notes
+
+```
+Internet of Things (IoT)
+│
+├── 1. Introduction to IoT
+│   ├── What is Internet
+│   ├── What are Things
+│   │   ├── Sensors
+│   │   ├── Computers
+│   │   └── Mobile devices
+│   ├── Evolution of Internet
+│   └── Kevin Ashton Explanation
+│
+├── 2. Definition of IoT
+│   ├── Global network infrastructure
+│   ├── Self-configuring capabilities
+│   ├── Standard communication protocols
+│   └── Physical and virtual things with identities
+│
+├── 3. IoT Objects / Things
+│   ├── Physical devices
+│   ├── Vehicles
+│   ├── Buildings
+│   ├── Smart devices
+│   └── Connected systems
+│
+├── 4. Sensors and Actuators
+│   ├── Sensors
+│   │   └── Measure environmental variables
+│   │
+│   └── Actuators
+│       ├── Control mechanisms
+│       ├── Open/close valves
+│       └── Start motion or physical action
+│
+├── 5. IoT Elements
+│   └── Components that form IoT ecosystem
+│
+├── 6. Characteristics of IoT
+│   ├── Dynamic and self-adapting
+│   ├── Self-configuring
+│   ├── Interoperable communication protocols
+│   ├── Unique identity
+│   └── Integrated information network
+│
+├── 7. Applications of IoT
+│   ├── Smart Home
+│   ├── Smart Cities
+│   ├── Environment Monitoring
+│   ├── Energy Management
+│   ├── Retail
+│   ├── Logistics
+│   ├── Agriculture
+│   ├── Industry
+│   └── Health & Lifestyle
+│
+├── 8. Physical Design of IoT
+│   ├── IoT devices
+│   ├── Data exchange between devices
+│   ├── Data collection
+│   ├── Cloud processing
+│   └── Local processing
+│
+├── 9. Generic Block Diagram of IoT Device
+│   ├── Sensor interfaces
+│   ├── Internet connectivity interfaces
+│   ├── Memory and storage
+│   ├── Processor
+│   └── Audio/Video interfaces
+│
+├── 10. IoT Protocols
+│   │
+│   ├── Link Layer
+│   │   ├── Ethernet (802.3)
+│   │   ├── WiFi (802.11)
+│   │   ├── WiMAX (802.16)
+│   │   ├── LR-WPAN (802.15.4)
+│   │   └── 2G/3G/4G
+│   │
+│   ├── Network Layer
+│   │   ├── IPv4
+│   │   ├── IPv6
+│   │   └── 6LoWPAN
+│   │
+│   ├── Transport Layer
+│   │   ├── TCP
+│   │   └── UDP
+│   │
+│   └── Application Layer
+│       ├── HTTP
+│       ├── CoAP
+│       ├── WebSocket
+│       ├── MQTT
+│       ├── XMPP
+│       ├── DDS
+│       └── AMQP
+│
+├── 11. Logical Design of IoT
+│   │
+│   ├── IoT Functional Blocks
+│   │   ├── Device
+│   │   ├── Communication
+│   │   ├── Services
+│   │   ├── Management
+│   │   ├── Security
+│   │   └── Application
+│   │
+│   ├── IoT Communication Models
+│   │   ├── Request-Response
+│   │   ├── Publish-Subscribe
+│   │   ├── Push-Pull
+│   │   └── Exclusive Pair
+│   │
+│   └── IoT Communication APIs
+│       ├── REST-based APIs
+│       └── WebSocket APIs
+│
+├── 12. IoT Enabling Technologies
+│   ├── Wireless Sensor Networks
+│   │   ├── Weather monitoring
+│   │   ├── Air quality monitoring
+│   │   ├── Soil moisture monitoring
+│   │   ├── Smart grids
+│   │   └── Structural monitoring
+│   │
+│   ├── Cloud Computing
+│   │   ├── IaaS
+│   │   ├── PaaS
+│   │   └── SaaS
+│   │
+│   ├── Big Data Analytics
+│   │   ├── Sensor data
+│   │   ├── Machine data
+│   │   ├── Health data
+│   │   ├── Location data
+│   │   └── Inventory data
+│   │
+│   ├── Communication Protocols
+│   │   ├── Data exchange rules
+│   │   ├── Flow control
+│   │   └── Retransmission
+│   │
+│   └── Embedded Systems
+│       ├── Digital watches
+│       ├── Cameras
+│       ├── POS terminals
+│       └── Smart appliances
+│
+├── 13. IoT System Components
+│   ├── Device
+│   ├── Resource
+│   ├── Controller Service
+│   ├── Database
+│   ├── Web Service
+│   ├── Analysis Component
+│   └── Application
+│
+├── 14. IoT Levels
+│   ├── Level 1
+│   ├── Level 2
+│   ├── Level 3
+│   ├── Level 4
+│   ├── Level 5
+│   └── Level 6
+│
+├── 15. Convergence of IT and OT
+│   ├── IT (Information Technology)
+│   ├── OT (Operational Technology)
+│   └── Integration through IoT
+│
+├── 16. IoT Challenges
+│   ├── Scale
+│   ├── Security
+│   ├── Privacy
+│   ├── Big Data
+│   └── Interoperability
+│
+├── 17. IoT Network Architecture and Design
+│   ├── Data transport
+│   ├── Data collection
+│   ├── Data analysis
+│   └── Action on data
+│
+├── 18. IoT Architectures
+│   ├── oneM2M Architecture
+│   │   ├── Application Layer
+│   │   ├── Services Layer
+│   │   └── Network Layer
+│   │
+│   └── IoTWF Architecture
+│       ├── Layer 1 – Physical Devices
+│       ├── Layer 2 – Connectivity
+│       ├── Layer 3 – Edge Computing
+│       ├── Layer 4 – Data Accumulation
+│       ├── Layer 5 – Data Abstraction
+│       ├── Layer 6 – Application
+│       └── Layer 7 – Collaboration & Processes
+│
+├── 19. Simplified IoT Architecture
+│   ├── Core IoT Functional Stack
+│   │   ├── Things Layer
+│   │   └── Communication Network Layer
+│   │       ├── Access Network
+│   │       ├── Gateway & Backhaul
+│   │       ├── Network Transport
+│   │       └── IoT Network Management
+│   │
+│   └── IoT Data Management and Compute Stack
+│       ├── Edge Layer
+│       ├── Fog Layer
+│       └── Cloud Layer
+│
+└── 20. IoT Communication Protocols
+    ├── HTTP
+    ├── WebSocket
+    ├── XMPP
+    ├── CoAP
+    └── MQTT
+
+
+```
+
 
 ## Internet of Things (IoT)
 
